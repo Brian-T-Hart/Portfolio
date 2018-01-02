@@ -13,10 +13,26 @@ body {
     letter-spacing: 0.3em;
 }
 
+#indexTitleDiv {
+    margin-top: 10%;
+}
+
+.contactInfoDiv {
+    background-color: #000;
+    margin-top: 40px;
+    color: #fff;
+}
+
+.contactInfoRow {
+    display: block;
+    margin: auto;
+    height: 350px;
+    padding-top: 100px;
+}
 
 h1 {
-    font-size: 64px;
-    letter-spacing: 0.4em;
+    font-size: 56px;
+    letter-spacing: 0.3em;
     padding-left: 25px;
     /* margin-top: 60px; */
 }
@@ -50,18 +66,14 @@ img {
     margin-top: 40px;
 }
 
-/* .aboutLink {
-    font-size: 18px;
-    letter-spacing: 0.2em;
-    padding: 20px;
-    margin: 10px;
-} */
+a {
+    color: black;
+}
 
 #aboutInfoContainer {
     padding: 20px;
     margin-top: 10px;
 }
-
 
 /* #mainContainer, #row1, #row2, #row3, #row4 {
     border: 2px solid red;
