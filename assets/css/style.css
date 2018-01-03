@@ -1,7 +1,8 @@
 body {
-    background-image: url('../images/camera.jpg');
+    background-image: url('../images/wood-coffee.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: auto 1024px;
+    background-position: top, center;
 	font-family: 'Dosis', Arial, sans-serif;
     font-size: 14px;
 }
@@ -14,24 +15,31 @@ body {
 }
 
 #indexTitleDiv {
-    margin-top: 10%;
+    position: fixed;
+    top: 60%;
 }
 
-.contactInfoDiv {
+#indexName, #indexTitle {
+    color: #fff;
+    margin: 10px;
+}
+
+#contactMainRow {
+    margin-top: 100px;
     background-color: #000;
-    margin-top: 40px;
     color: #fff;
 }
 
 .contactInfoRow {
     display: block;
     margin: auto;
-    height: 350px;
-    padding-top: 100px;
+    height: 250px;
+    padding-top: 80px;
 }
 
 h1 {
-    font-size: 56px;
+    font-size: 48px;
+    font-weight: 100;
     letter-spacing: 0.3em;
     padding-left: 25px;
     /* margin-top: 60px; */
@@ -42,6 +50,18 @@ h2 {
     letter-spacing: 0.5em;
     margin-top: 40px;
     /* margin-bottom: 40px; */
+}
+
+h3 {
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 0.3em;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 0.1em;
 }
 
 p {
