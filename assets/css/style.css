@@ -79,7 +79,8 @@ img {
     display: block;
     margin: auto;
     margin-top: 20px;
-    border: 3px solid #F5F5F5;
+    border: 2px solid lightgrey;
+    /* border: 3px solid #F5F5F5; */
 }
 
 .aboutImage {
@@ -90,6 +91,17 @@ img {
 
 a {
     color: black;
+    cursor: pointer;
+}
+
+.emailLink {
+    color: #fff;
+}
+
+.projectImage:hover {
+   max-width: 320px;
+   margin-top: 0px;
+   /* opacity: 0.5; */
 }
 
 #aboutInfoContainer {
