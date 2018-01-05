@@ -1,8 +1,9 @@
 body {
-    background-image: url('../images/wood-coffee.jpg');
+    background-image: url('../images/background-landscape.jpg');
     background-repeat: no-repeat;
-    background-size: auto 1024px;
+    background-size: auto 1200px;
     background-position: top, center;
+    background-color: #000;
 	font-family: 'Dosis', Arial, sans-serif;
     font-size: 14px;
 }
@@ -16,8 +17,8 @@ body {
 
 #indexTitleDiv {
     position: fixed;
-    top: 60%;
-}
+    top: 35%;
+    }
 
 #indexName, #indexTitle {
     color: #fff;
@@ -113,14 +114,20 @@ a {
     margin-top: 10px;
 }
 
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 767px) {
     .iconImage {
         height: 60px;
     }
-    /* .navbar {
-        font-size: 40px;
+
+    body {
+        background-image: url('../images/computer.jpg');
+        background-repeat: no-repeat;
+        background-size: auto 812px;
+        background-position: top, center;
+        background-color: #000;
     }
-    .navbar-brand {
-        font-size: 40px;
-    } */
+    #indexTitleDiv {
+    position: fixed;
+    top: 30%;
+    }
 }
