@@ -32,6 +32,7 @@ body {
 
 #iconRow {
     margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .contactInfoRow {
@@ -64,6 +65,7 @@ h4 {
     font-size: 14px;
     font-weight: 100;
     letter-spacing: 0.1em;
+    color: #fff;
 }
 
 p {
@@ -101,7 +103,6 @@ a {
 .projectImage:hover {
    max-width: 320px;
    margin-top: 0px;
-   /* opacity: 0.5; */
 }
 
 #aboutInfoContainer {
@@ -109,7 +110,14 @@ a {
     margin-top: 10px;
 }
 
-/* #mainContainer, #row1, #row2, #row3, #row4 {
-    border: 2px solid red;
-} */
-
+@media screen and (max-width: 786px) {
+    .iconImage {
+        height: 60px;
+    }
+    /* .navbar {
+        font-size: 40px;
+    }
+    .navbar-brand {
+        font-size: 40px;
+    } */
+}
