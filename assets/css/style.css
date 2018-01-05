@@ -75,20 +75,22 @@ p {
     padding: 10px;
 }
 
-img {
-    max-width: 300px;
-    height: auto;
+.projectImage {
+    width: 300px;
+    height: 200px;
     display: block;
     margin: auto;
     margin-top: 20px;
     border: 2px solid lightgrey;
-    /* border: 3px solid #F5F5F5; */
 }
 
 .aboutImage {
-    border-radius: 20px;
+    display: block;
+    margin: auto;
     max-width: 250px;
     margin-top: 40px;
+    border-radius: 20px;
+    border: 2px solid lightgrey;
 }
 
 a {
@@ -101,7 +103,8 @@ a {
 }
 
 .projectImage:hover {
-   max-width: 320px;
+   width: 320px;
+   height: 210px;
    margin-top: 0px;
 }
 
