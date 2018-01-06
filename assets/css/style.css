@@ -94,6 +94,19 @@ p {
     border: 2px solid lightgrey;
 }
 
+.codeIcon {
+    width: 128px;
+    height: 128px;
+}
+
+.MongoDB, .Handlebars, .React {
+    width: 120px;
+    height: 120px;
+    border: 3px solid silver;
+    border-radius: 20px;
+    margin-right: 8px;
+}
+
 a {
     color: black;
     cursor: pointer;
