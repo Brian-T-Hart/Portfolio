@@ -85,6 +85,22 @@ p {
     border: 2px solid lightgrey;
 }
 
+.projectPageImage {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    border: 2px solid lightgrey;
+}
+
+.projectPageText {
+    max-width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
 .aboutImage {
     display: block;
     margin: auto;
@@ -92,6 +108,10 @@ p {
     margin-top: 40px;
     border-radius: 20px;
     border: 2px solid lightgrey;
+}
+
+.textLink {
+    margin-top: 20px;
 }
 
 .codeIcon {
