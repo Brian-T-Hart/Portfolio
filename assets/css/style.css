@@ -33,7 +33,7 @@ body {
 
 #iconRow {
     margin-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 }
 
 .contactInfoRow {
@@ -121,18 +121,18 @@ p {
     font-size: 16px;
 }
 
-.codeIcon {
+/* .codeIcon {
     width: 128px;
     height: 128px;
-}
+} */
 
-.MongoDB, .Handlebars, .React {
+/* .MongoDB, .Handlebars, .React {
     width: 120px;
     height: 120px;
     border: 3px solid silver;
     border-radius: 20px;
     margin-right: 8px;
-}
+} */
 
 a {
     color: black;
@@ -156,6 +156,13 @@ a {
 
 #projectBtn {
     margin: 10px;
+}
+
+.arrowBtn {
+    margin-top: 30px;
+    font-size: 20px;
+    width: 40px;
+    border: 1px solid silver;
 }
 
 @media screen and (max-width: 767px) {
