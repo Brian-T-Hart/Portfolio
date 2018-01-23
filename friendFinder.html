@@ -23,12 +23,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
 
+    <!-- My css -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
                 aria-expanded="false">
@@ -39,7 +39,6 @@
             </button>
             <a class="navbar-brand" href="index.html">BH</a>
         </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
@@ -56,55 +55,58 @@
                 </li>
             </ul>
         </div>
-        <!-- /.navbar-collapse -->
     </div>
-    <!-- /.container-fluid -->
 </nav>
 
 <body style="background-image: none; background-color: #fff">
-    <div class="container-fluid">
-        <div class="row text-center">
-            <div class="col-md-12">
-                <h1 class="pageTitle" style="margin-top: 120px; margin-bottom: 0px;">CONTACT ME</h1>
-            </div>
-        </div>   
-        <div id="contactMainRow" class="row text-center">
-            <div class="col-xs-6 col-sm-6 col-md-5 col-md-offset-1 contactInfoDiv">
-                <div class="row contactInfoRow">
-                    <h3 class="contactInfo"><span class="glyphicon glyphicon-envelope"></span> Email</h3>
-                    <a class="emailLink" href="mailto:hart.briant@gmail.com" target="_blank">
-                        <h4 class="contactInfo">Hart.BrianT@gmail.com</h4>
-                    </a>
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-5 contactInfoDiv">
-                <div class="row contactInfoRow">
-                    <h3 class="contactInfo"><span class="glyphicon glyphicon-earphone"></span> Phone</h3>
-                    <a href="tel:1-714-338-9412"><h4 class="contactInfo">1-714-338-9412</h4></a>
-                </div>
+    <div id="mainContainer" class="container container-fluid">
+        <div id="row1" class="row">
+            <div class="col-md-12 col-lg-12">
+                <h1 id="aboutTitle" class="text-center pageTitle">Friend Finder</h1>
             </div>
         </div>
-        <div id="iconRow" class="row">
-            <div class="col-xs-2 col-xs-offset-4 col-sm-1 col-sm-offset-5 col-md-1 col-md-offset-5 text-center">
-                <a href="https://github.com/Brian-T-Hart" target="_blank">
-                    <img src="assets/images/github_icon.png" />
-                </a>
+        <div id="row2" class="row">
+            <div class="col-md-12 col-lg-12">
+                <h3 class="text-center">Take a quiz to find your closest match</h3>
             </div>
-            <div class="col-xs-2 col-sm-1 col-md-1 text-center">
-                <a href="https://www.linkedin.com/in/hartbriant/" target="_blank">
-                    <img src="assets/images/linkedin_icon.png" />
-                </a>
+        </div>
+        <div id="row3" class="row">
+            <div class="col-md-6 col-lg-6">
+                <!-- <a href="https://class-worx.herokuapp.com" target="_blank"></a> -->
+                <img class="projectPageImage" src="assets/images/friendfinder.png" />
+                <!-- </a> -->
+                <div class="row">
+                    <div class="textLink col-sm-6 col-md-4 col-md-offset-2 text-center">
+                        <a href="https://friend-finder-quiz.herokuapp.com/" target="_blank">view site</a>
+                    </div>
+                    <div class="textLink col-md-4 text-center">
+                        <a href="https://github.com/Brian-T-Hart/Friend_Finder" target="_blank">view code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 projectPageText">
+                <p>Friend Finder is another fun homework assignment I worked on for my coding bootcamp. Take a ten question quiz and you will automatically be paired up with your closest match from an array of friends.
+                </p>
+                <p>This is a Node application that was created mainly with html, css, bootstrap, and javascript.</p>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12 text-center">
-                <a href="friendFinder.html">
+            <div class="col-xs-2 col-xs-offset-4 col-sm-1 col-sm-offset-5 col-md-1 col-md-offset-5 text-center">
+                <a href="eatDaBurger.html">
                     <button class="arrowBtn btn">
                         <</button>
                 </a>
             </div>
+            <div class="col-xs-2 col-sm-1 col-md-1 text-center">
+                <a href="contact.html">
+                    <button class="arrowBtn btn">
+                        ></button>
+                </a>
+            </div>
         </div>
+        <div class="row4" style="height: 30px"></div>
     </div>
+
 </body>
 
 </html>
