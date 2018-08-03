@@ -1,202 +1,185 @@
+a {
+	color: #000;
+	cursor: pointer;
+}
+
 body {
-    background-image: url('../images/background-landscape.jpg');
-    background-repeat: no-repeat;
-    background-size: auto 1200px;
-    background-position: top, center;
-    background-color: #000;
+	background-color: #000;
+	background-image: url('../images/background-landscape.jpg');
+	background-position: top, center;
+	background-repeat: no-repeat;
+	background-size: auto 1200px;
 	font-family: 'Dosis', Arial, sans-serif;
-    font-size: 14px;
-}
-
-.navbar {
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 14px;
-    letter-spacing: 0.3em;
-}
-
-#indexTitleDiv {
-    position: fixed;
-    top: 35%;
-    }
-
-#indexName, #indexTitle {
-    color: #fff;
-    margin: 10px;
-}
-
-#enterBtn {
-    font-size: 24px;
-}
-
-#projectButton {
-    font-size: 18px;
-}
-
-#contactMainRow {
-    margin-top: 100px;
-    background-color: #000;
-    color: #fff;
-}
-
-#iconRow {
-    margin-top: 80px;
-    margin-bottom: 30px;
-}
-
-.contactInfoRow {
-    display: block;
-    margin: auto;
-    height: 250px;
-    padding-top: 80px;
+	font-size: 14px;
 }
 
 h1 {
-    font-size: 48px;
-    font-weight: 100;
-    letter-spacing: 0.3em;
-    padding-left: 10px;
-    margin-top: 80px;
+	font-size: 48px;
+	font-weight: 100;
+	letter-spacing: 0.3em;
+	margin-top: 80px;
+	padding-left: 10px;
 }
 
 h2 {
-    font-size: 20px;
-    letter-spacing: 0.5em;
-    margin-top: 20px;
+	font-size: 20px;
+	letter-spacing: 0.5em;
+	margin-top: 20px;
 }
 
 h3 {
-    font-weight: 100;
-    font-size: 18px;
-    letter-spacing: 0.3em;
+	font-size: 18px;
+	font-weight: 100;
+	letter-spacing: 0.3em;
 }
 
 h4 {
-    font-size: 14px;
-    font-weight: 100;
-    letter-spacing: 0.1em;
-    color: #fff;
+	color: #FFF;
+	font-size: 14px;
+	font-weight: 100;
+	letter-spacing: 0.1em;
 }
 
 p {
-    font-size: 16px;
-    letter-spacing: 0.2em;
-    text-indent: 50px;
-    padding: 10px;
-}
-
-.projectImage {
-    width: 300px;
-    height: 200px;
-    display: block;
-    margin: auto;
-    margin-top: 20px;
-    border: 2px solid lightgrey;
-}
-
-.projectPageImage {
-    max-width: 90%;
-    height: auto;
-    display: block;
-    margin: auto;
-    margin-top: 30px;
-    border: 2px solid lightgrey;
-}
-
-.projectPageText {
-    max-width: 90%;
-    display: block;
-    margin: auto;
-    margin-top: 20px;
-}
-
-.classWorxTestInfo {
-    margin-top: 30px;
-    background-color: #008ff7;
-    color: white;
-}
-
-.aboutImage {
-    display: block;
-    margin: auto;
-    max-width: 250px;
-    margin-top: 30px;
-    border-radius: 20px;
-    border: 2px solid lightgrey;
-}
-
-.textLink {
-    margin-top: 30px;
-    font-size: 16px;
-}
-
-/* .codeIcon {
-    width: 128px;
-    height: 128px;
-} */
-
-/* .MongoDB, .Handlebars, .React {
-    width: 120px;
-    height: 120px;
-    border: 3px solid silver;
-    border-radius: 20px;
-    margin-right: 8px;
-} */
-
-a {
-    color: black;
-    cursor: pointer;
-}
-
-.emailLink {
-    color: #fff;
-}
-
-.projectImage:hover {
-   width: 320px;
-   height: 210px;
-   margin-top: 0px;
-}
-
-#aboutInfoContainer {
-    padding: 20px;
-    margin-top: 10px;
-}
-
-#projectBtn {
-    margin: 10px;
+	font-size: 16px;
+	letter-spacing: 0.2em;
+	padding: 10px;
+	text-indent: 50px;
 }
 
 .arrowBtn {
-    margin-top: 30px;
-    font-size: 20px;
-    width: 40px;
-    border: 1px solid silver;
+	border: 1px solid #C0C0C0;
+	font-size: 20px;
+	margin-top: 30px;
+	width: 40px;
+}
+
+.navbar {
+	font-size: 14px;
+	letter-spacing: 0.3em;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.contactInfoRow {
+	display: block;
+	height: 250px;
+	margin: auto;
+	padding-top: 80px;
+}
+
+.projectImage {
+	border: 2px solid #D3D3D3;
+	display: block;
+	height: 200px;
+	margin: auto;
+	margin-top: 20px;
+	width: 300px;
+}
+
+.projectPageImage {
+	border: 2px solid #D3D3D3;
+	display: block;
+	height: auto;
+	margin: auto;
+	margin-top: 30px;
+	max-width: 90%;
+}
+
+.projectPageText {
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	max-width: 90%;
+}
+
+.classWorxTestInfo {
+	background-color: #008FF7;
+	color: #FFF;
+	margin-top: 30px;
+}
+
+.aboutImage {
+	border: 2px solid #D3D3D3;
+	border-radius: 20px;
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+	max-width: 250px;
+}
+
+.textLink {
+	font-size: 16px;
+	margin-top: 30px;
+}
+
+.emailLink {
+	color: #FFF;
+}
+
+.projectImage:hover {
+	height: 210px;
+	margin-top: 0;
+	width: 320px;
+}
+
+#aboutInfoContainer {
+	margin-top: 10px;
+	padding: 20px;
+}
+
+#contactMainRow {
+	background-color: #000;
+	color: #FFF;
+	margin-top: 100px;
+}
+
+#enterBtn {
+	font-size: 24px;
+}
+
+#iconRow {
+	margin-bottom: 30px;
+	margin-top: 80px;
+}
+
+#indexName, #indexTitle {
+	color: #FFF;
+	margin: 10px;
+}
+
+#indexTitleDiv {
+	position: fixed;
+	top: 35%;
+}
+
+#projectBtn {
+	margin: 10px;
+}
+
+#projectButton {
+	font-size: 18px;
 }
 
 @media screen and (max-width: 767px) {
-    .iconImage {
-        height: 60px;
-    }
+	body {
+		background-color: #000;
+		background-image: url('../images/computer.jpg');
+		background-position: top, center;
+		background-repeat: no-repeat;
+		background-size: auto 812px;
+	}
 
-    body {
-        background-image: url('../images/computer.jpg');
-        background-repeat: no-repeat;
-        background-size: auto 812px;
-        background-position: top, center;
-        background-color: #000;
-    }
+	.iconImage {
+		height: 60px;
+	}
 
-    #indexTitleDiv {
-    position: fixed;
-    top: 30%;
-    }
+	.pageTitle {
+		font-size: 24px;
+	}
 
-    .pageTitle {
-        font-size: 24px;
-    }
-
-    /* h1 {
-        font-size: 24px;
-    } */
+	#indexTitleDiv {
+		position: fixed;
+		top: 30%;
+	}
 }

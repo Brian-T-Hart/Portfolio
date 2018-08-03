@@ -23,12 +23,12 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 		crossorigin="anonymous"></script>
 
+	<!-- My css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container-fluid">
-		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
 				aria-expanded="false">
@@ -39,8 +39,6 @@
 			</button>
 			<a class="navbar-brand" href="index.html">BH</a>
 		</div>
-
-		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right">
 				<li>
@@ -57,83 +55,78 @@
 				</li>
 			</ul>
 		</div>
-		<!-- /.navbar-collapse -->
 	</div>
-	<!-- /.container-fluid -->
 </nav>
 
 <body style="background-image: none; background-color: #fff">
 	<div id="mainContainer" class="container container-fluid">
-		<div class="row">
-			<div class="col-md-12">
-				<h1 id="aboutTitle" class="text-center pageTitle">PROJECTS</h1>
+		<div id="row1" class="row">
+			<div class="col-md-12 col-lg-12">
+				<h1 id="aboutTitle" class="text-center pageTitle">Goal-Post-CRM</h1>
 			</div>
 		</div>
-
-		<div class="row">
-			<div class="col-md-4">
-				<a href="lifeCalling.html">
-					<h2 class="text-center">WCHS-Lifecalling</h2>
-					<img class="projectImage" src="assets/images/lifeCalling.png" />
-				</a>
-			</div>
-
-			<div class="col-md-4">
-				<a href="goalPost.html">
-					<h2 class="text-center">Goal-Post-CRM</h2>
-					<img class="projectImage" src="assets/images/goalpost.png" />
-				</a>
-			</div>
-
-			<div class="col-md-4">
-				<a href="classWorx.html">
-				<h2 class="text-center">ClassWorx</h2>
-				<img class="projectImage" src="assets/images/classworx2.png" />
-				</a>
+		<div id="row2" class="row">
+			<div class="col-md-12 col-lg-12">
+				<h3 class="text-center">ON-THE-GO SALES TOOL</h3>
 			</div>
 		</div>
-
-		<div class="row">
-			<div class="col-md-4">
-				<a href="eventHub.html" target="_blank">
-					<h2 class="text-center">Event Hub</h2>
-					<img class="projectImage" src="assets/images/chartreuse.png" />
-				</a>
-			</div>
-
-			<!-- <div class="col-md-4">
-				<a href="eatDaBurger.html" target="_blank">
-					<h2 class="text-center">Eat Da Burgers</h2>
-					<img class="projectImage" src="assets/images/eatdaburgers.png" />
-				</a>
-			</div> -->
-
-			<div class="col-md-4">
-				<a href="friendFinder.html" target="_blank">
-					<h2 class="text-center">Friend Finder</h2>
-					<img class="projectImage" src="assets/images/friendfinder.png" />
-				</a>
-			</div>
-
-			<div class="col-md-4">
-				<a href="clickMeGame.html" target="_blank">
-					<h2 class="text-center">Click-Me-Game</h2>
-					<img class="projectImage" src="assets/images/clickMeGame.png" />
-				</a>
+		<div id="row3" class="row">
+			<div class="col-md-6 col-lg-6">
+				<!-- <a href="https://goal-post-crm.herokuapp.com/" target="_blank"> -->
+					<img class="projectPageImage" src="assets/images/lifecalling.png" />
+				<!-- </a> -->
+				<div class="row">
+					<div class="textLink col-sm-6 col-md-4 col-md-offset-2 text-center">
+						<a href="https://wchs-lifecalling.herokuapp.com" target="_blank">view site</a>
+					</div>
+					<div class="textLink col-md-4 text-center">
+						<a href="https://github.com/Brian-T-Hart/WCHS-Lifecalling" target="_blank">view code</a>
+					</div>
+				<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 classWorxTestInfo">
+					<p style="text-indent: 0;">Use the links above to view the code or to check out the site. Feel free to use the login credentials below to take a
+						look.</p>
+					<div class="row">
+						<div class="col-xs-5 col-xs-offset-1 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-2 text-center">
+							<h4 style="margin-top: 0px;">
+								<span style=" font-weight: bold; color: #000;">Username:
+								</span>
+								<br> test
+							</h4>
+						</div>
+						<div class="col-xs-6 col-sm-5 col-md-5 col-lg-4 text-center">
+							<h4 style="margin-top: 0px;">
+								<span style="font-weight: bold; color:#000;">Password:
+								</span>
+								<br> test
+							</h4>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-
+			<div class="col-md-6 col-lg-6 projectPageText">
+				<p>WCHS-Lifecalling is a react based app that I made for a high school Life Calling class. The app allows students to record and track information regarding their personality and strengths as they take various tests throughout the year.
+				</p>
+				<p>The site was constucted using MySQL, Express, React, and Node.
+				</p>
+			</div>
+		</div>
 		<div class="row">
 			<div class="col-xs-2 col-xs-offset-4 col-sm-1 col-sm-offset-5 col-md-1 col-md-offset-5 text-center">
-				<a href="about.html"><button class="arrowBtn btn"><</button></a>
+				<a href="projects.html">
+					<button class="arrowBtn btn">
+						<
+					</button>
+				</a>
 			</div>
-
-			<div class="col-xs-1 col-sm-1 col-md-1 text-center">
-				<a href="contact.html"><button class="arrowBtn btn">
-				></button></a>
+			<div class="col-xs-2 col-sm-1 col-md-1 text-center">
+				<a href="goalPost.html">
+					<button class="arrowBtn btn">
+						>
+					</button>
+				</a>
 			</div>
 		</div>
-
 		<div class="row4" style="height: 30px"></div>
 	</div>
 
