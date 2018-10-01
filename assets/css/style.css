@@ -47,11 +47,37 @@ p {
 	text-indent: 50px;
 }
 
+.about-image {
+	border: 2px solid #D3D3D3;
+	border-radius: 20px;
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+	max-width: 250px;
+}
+
 .arrow-btn {
 	border: 1px solid #C0C0C0;
 	font-size: 20px;
 	margin-top: 30px;
 	width: 40px;
+}
+
+.classWorx-test-info {
+	background-color: #008FF7;
+	color: #FFF;
+	margin-top: 30px;
+}
+
+.contact-info-row {
+	display: block;
+	height: 225px;
+	margin: auto;
+	padding-top: 65px;
+}
+
+.email-link {
+	color: #FFF;
 }
 
 .navbar {
@@ -61,18 +87,11 @@ p {
 	padding-right: 20px;
 }
 
-.contactInfoRow {
-	display: block;
-	height: 225px;
-	margin: auto;
-	padding-top: 65px;
-}
-
-.page-title .contactPage {
+.page-title .contact-page {
 	margin-top: 60px;
 }
 
-.projectImage {
+.project-image {
 	border: 2px solid #D3D3D3;
 	display: block;
 	height: 200px;
@@ -81,7 +100,13 @@ p {
 	width: 300px;
 }
 
-.projectPageImage {
+.project-image:hover {
+	height: 210px;
+	margin-top: 0;
+	width: 320px;
+}
+
+.project-page-image {
 	border: 2px solid #D3D3D3;
 	display: block;
 	height: auto;
@@ -90,26 +115,54 @@ p {
 	max-width: 90%;
 }
 
-.projectPageText {
+.project-page-text {
 	display: block;
 	margin: auto;
 	margin-top: 20px;
 	max-width: 90%;
 }
 
-.classWorxTestInfo {
-	background-color: #008FF7;
-	color: #FFF;
+.text-link {
+	font-size: 16px;
 	margin-top: 30px;
 }
 
-.aboutImage {
-	border: 2px solid #D3D3D3;
-	border-radius: 20px;
-	display: block;
-	margin: auto;
-	margin-top: 30px;
-	max-width: 250px;
+#about-info-container {
+	margin-top: 10px;
+	padding: 20px;
+}
+
+#contact-main-row {
+	background-color: #000;
+	color: #FFF;
+	margin-top: 70px;
+}
+
+#enter-btn {
+	font-size: 24px;
+}
+
+#icon-row {
+	margin-bottom: 25px;
+	margin-top: 75px;
+}
+
+#index-name, #index-title {
+	color: #FFF;
+	margin: 10px;
+}
+
+#index-title-div {
+	position: fixed;
+	top: 35%;
+}
+
+#project-btn {
+	margin: 10px;
+}
+
+#project-button {
+	font-size: 18px;
 }
 
 #stackoverflow-icon {
@@ -117,60 +170,6 @@ p {
 	height: 43px;
 	position: relative;
 	width: 43px;
-
-}
-
-.textLink {
-	font-size: 16px;
-	margin-top: 30px;
-}
-
-.emailLink {
-	color: #FFF;
-}
-
-.projectImage:hover {
-	height: 210px;
-	margin-top: 0;
-	width: 320px;
-}
-
-#aboutInfoContainer {
-	margin-top: 10px;
-	padding: 20px;
-}
-
-#contactMainRow {
-	background-color: #000;
-	color: #FFF;
-	margin-top: 70px;
-}
-
-#enterBtn {
-	font-size: 24px;
-}
-
-#iconRow {
-	margin-bottom: 25px;
-	margin-top: 75px;
-}
-
-#indexName, #indexTitle {
-	color: #FFF;
-	margin: 10px;
-}
-
-#indexTitleDiv {
-	position: fixed;
-	top: 35%;
-}
-
-#projectBtn {
-	margin: 10px;
-}
-
-#projectButton {
-	font-size: 18px;
 }
 
 @media screen and (max-width: 767px) {
@@ -182,12 +181,12 @@ p {
 		background-size: auto 812px;
 	}
 
-	.contactInfoRow {
+	.contact-info-row {
 		height: 200px;
 		padding-top: 55px;
 	}
 
-	.iconImage {
+	.icon-image {
 		height: 60px;
 	}
 
@@ -195,15 +194,15 @@ p {
 		font-size: 24px;
 	}
 
-	#contactMainRow {
+	#contact-main-row {
 		margin-top: 80px;
 	}
 
-	#iconRow {
+	#icon-row {
 		margin-top: 60px;
 	}
 
-	#indexTitleDiv {
+	#index-title-div {
 		position: fixed;
 		top: 30%;
 	}
