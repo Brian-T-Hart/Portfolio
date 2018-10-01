@@ -63,9 +63,13 @@ p {
 
 .contactInfoRow {
 	display: block;
-	height: 250px;
+	height: 225px;
 	margin: auto;
-	padding-top: 80px;
+	padding-top: 65px;
+}
+
+.pageTitle .contactPage {
+	margin-top: 60px;
 }
 
 .projectImage {
@@ -108,6 +112,14 @@ p {
 	max-width: 250px;
 }
 
+#stackoverflow-icon {
+	bottom: 0;
+	height: 43px;
+	position: relative;
+	width: 43px;
+
+}
+
 .textLink {
 	font-size: 16px;
 	margin-top: 30px;
@@ -131,7 +143,7 @@ p {
 #contactMainRow {
 	background-color: #000;
 	color: #FFF;
-	margin-top: 100px;
+	margin-top: 70px;
 }
 
 #enterBtn {
@@ -139,8 +151,8 @@ p {
 }
 
 #iconRow {
-	margin-bottom: 30px;
-	margin-top: 80px;
+	margin-bottom: 25px;
+	margin-top: 75px;
 }
 
 #indexName, #indexTitle {
@@ -170,12 +182,25 @@ p {
 		background-size: auto 812px;
 	}
 
+	.contactInfoRow {
+		height: 200px;
+		padding-top: 55px;
+	}
+
 	.iconImage {
 		height: 60px;
 	}
 
 	.pageTitle {
 		font-size: 24px;
+	}
+
+	#contactMainRow {
+		margin-top: 80px;
+	}
+
+	#iconRow {
+		margin-top: 60px;
 	}
 
 	#indexTitleDiv {
