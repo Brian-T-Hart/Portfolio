@@ -181,6 +181,15 @@ p {
 		background-size: auto 812px;
 	}
 
+	h2 {
+		margin-top: 10px;
+	}
+
+	.about-image {
+		margin-top: 20px;
+		max-width: 150px;
+	}
+
 	.contact-info-row {
 		height: 200px;
 		padding-top: 55px;
@@ -192,6 +201,10 @@ p {
 
 	.page-title {
 		font-size: 24px;
+	}
+
+	#about-info-container {
+		margin-top: 0;
 	}
 
 	#contact-main-row {
